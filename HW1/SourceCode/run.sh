@@ -1,6 +1,6 @@
 #!/bin/bash
 FOLDER=`ls ./puzzle`
-echo "" > result.txt
+> result.txt
 for file in $FOLDER 
 do
   echo $file >> result.txt
